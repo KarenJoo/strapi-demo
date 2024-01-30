@@ -45,6 +45,15 @@
   padding: 20px;
 }
 
+/* blog list */
 .blog-preview {
   padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #B69E96;
 }
+
+.blog-preview:hover {
+  font-size: 18px;
+}
+
+
