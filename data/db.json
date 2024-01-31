@@ -1,39 +1,53 @@
 {
-    "blogs": [
-        {
-            "id": 1,
-            "title": "Photo Lifestyle",
-            "body": "Some content text..",
-            "author": "Moose Design",
-            "image": "https://images.pexels.com/photos/1038000/pexels-photo-1038000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "id": 2,
-            "title": "Waterfall drops",
-            "body": "Some content text..",
-            "author": "Artist Ro",
-            "image": "https://images.pexels.com/photos/3418325/pexels-photo-3418325.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "id": 3,
-            "title": "New Fonts",
-            "body": "Some content text..",
-            "author": "Fontains",
-            "image": "https://images.pexels.com/photos/6353839/pexels-photo-6353839.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "id": 4,
-            "title": "Waldemar Architecture",
-            "body": "Some content text..",
-            "author": "Waldemar Arch",
-            "image": "https://images.pexels.com/photos/910616/pexels-photo-910616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "id": 5,
-            "title": "Laithang Angelo",
-            "body": "Some content text..",
-            "author": "Laithang",
-            "image": "https://images.pexels.com/photos/3459713/pexels-photo-3459713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        }
-    ]
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Photo Lifestyle",
+      "body": "Some content text..",
+      "author": "Moose Design",
+      "image": "https://images.pexels.com/photos/1038000/pexels-photo-1038000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "2",
+      "title": "Waterfall drops",
+      "body": "Some content text..",
+      "author": "Artist Ro",
+      "image": "https://images.pexels.com/photos/3418325/pexels-photo-3418325.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "3",
+      "title": "New Fonts",
+      "body": "Some content text..",
+      "author": "Fontains",
+      "image": "https://images.pexels.com/photos/6353839/pexels-photo-6353839.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "4",
+      "title": "Waldemar Architecture",
+      "body": "Some content text..",
+      "author": "Waldemar Arch",
+      "image": "https://images.pexels.com/photos/910616/pexels-photo-910616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "5",
+      "title": "Laithang Angelo",
+      "body": "Some content text..",
+      "author": "Laithang",
+      "image": "https://images.pexels.com/photos/3459713/pexels-photo-3459713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "068a",
+      "title": "Dancing strangers",
+      "body": "This is some content",
+      "author": "Laithang",
+      "image": "https://images.pexels.com/photos/2380451/pexels-photo-2380451.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+    },
+    {
+      "id": "0f26",
+      "title": "This is also art",
+      "body": "some content text",
+      "author": "Waldemar Arch",
+      "image": "https://images.pexels.com/photos/6108799/pexels-photo-6108799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    }
+  ]
 }

@@ -1,23 +1,34 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 
 const Create = () => {
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('');
     const [image, setImage] = useState('');
+    const history = useHistory();
 
     const handleSubmit = (e) => {
         e.preventDefault();
         const blog = { title, body, author, image };
-
-        
 
         // Clear the form fields after submission
         setTitle('');
         setBody('');
         setAuthor('');
         setImage('');
-    };
+
+
+        fetch('http://localhost:8000/blogs', {
+            method: 'POST',
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(blog)
+        }).then(() => {
+            // history.go(-1);
+            history.push('/');
+        })
+
+    }
 
     return ( 
         <div className="create">
@@ -52,7 +63,9 @@ const Create = () => {
                     value={image}
                     onChange={(e) => setImage(e.target.value)}
                 />
-                <button>Add blog</button>
+                 <button>Add blog</button> 
+
+
                 <h2>Preview new blogpost</h2>
                 <p>New Title: { title }</p>
                 <p>Author: {author}</p>
