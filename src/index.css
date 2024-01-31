@@ -52,6 +52,11 @@
   border-bottom: 1px solid #B69E96;
 }
 
+.blog-preview h2 {
+  color: var(--secondary-color);
+
+}
+
 .blog-preview:hover {
   font-size: 18px;
 }
@@ -61,3 +66,6 @@ img {
   margin: 30px auto;
 }
 
+.blog-preview a {
+  text-decoration: none;
+}
