@@ -34,7 +34,7 @@ const BlogDetails = () => {
                     <h2>{ blog.title }</h2>
                     <p>Written by { blog.author }</p>
                     <div>{ blog.body }</div>
-                    <img src={blog.image} alt="Blog Image" /> 
+                    <img src={blog.image} alt={blog.title} />
                     <button onClick={handleClick}>Delete blog</button>
                 </article>
             )}
