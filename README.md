@@ -1,6 +1,13 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="758" alt="Screenshot 2024-02-03 at 17 59 24" src="https://github.com/KarenJoo/strapi-demo/assets/114563762/b50c4dec-76b1-4466-bab9-df62436773e4">
+# Strapi demo blog
+This blog is created with the intention to learn the basics of React as framework. The blog has no focus on design but is created for the process of learning the set up, components, routing, state management, async code, built-in hooks & custom hooks. While currently independent fetching endpoints from JSON Server, this blog will later integrate with Strapi for the backend API. 
+
+A user can:
+- View all blogs
+- View single blog detail page
+- Create a new blogpost
+- Delete a blogpost
 
 ## Available Scripts
 
